@@ -4,12 +4,13 @@ type ProviderID = "google.com";
 
 const providerNames = {
   "google.com": "Google",
+  "facebook.com": "Facebook",
 };
 
 const providerTitles: {[key: string]: string} = {
-  SIGN_IN: 'Continue with',
-  LINK: 'Link',
-  UNLINK: 'Unlink',
+  SIGN_IN: "Continue with",
+  LINK: "Link",
+  UNLINK: "Unlink",
 };
 
 /**
@@ -30,10 +31,10 @@ export function getProviderButtonTitle(
   const providers = getProviders(user);
   const isProvider = providers.includes(providerID);
   const isOnlyProvider = providers.length === 1 && isProvider;
-  let variant = 'SIGN_IN';
+  let variant = "SIGN_IN";
 
   if (user) {
-    variant = isProvider ? 'UNLINK' : 'LINK';
+    variant = isProvider ? "UNLINK" : "LINK";
   }
 
   return {

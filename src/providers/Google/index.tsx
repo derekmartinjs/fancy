@@ -10,6 +10,13 @@ import {GOOGLE_WEB_CLIENT_ID} from 'react-native-dotenv';
 
 const PROVIDER_ID = 'google.com';
 
+GoogleSignin.configure({
+  scopes: ['profile', 'email'], // what API you want to access on behalf of the user, default is email and profile
+  webClientId: GOOGLE_WEB_CLIENT_ID, // client ID of type WEB for your server (needed to verify user ID and offline access)
+  //     offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
+  //      hostedDomain: '', // specifies a hosted domain restriction
+});
+
 function Google() {
   // declare state variables
   const [loading, setLoading] = useState(false);
@@ -59,15 +66,6 @@ function Google() {
       }
     }
   };
-
-  useEffect(() => {
-    GoogleSignin.configure({
-      scopes: ['profile', 'email'], // what API you want to access on behalf of the user, default is email and profile
-      webClientId: GOOGLE_WEB_CLIENT_ID, // client ID of type WEB for your server (needed to verify user ID and offline access)
-      //     offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
-      //      hostedDomain: '', // specifies a hosted domain restriction
-    });
-  }, []);
 
   return (
     <ProviderButton
