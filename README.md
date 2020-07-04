@@ -39,3 +39,9 @@
 * Subscriptions
 * Settings Screen
 
+
+
+## File Structure
+
+* Below is the way we are organizing this app:
+* 
