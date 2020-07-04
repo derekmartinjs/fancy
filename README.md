@@ -39,6 +39,8 @@
 * [Plaid (for financial transactions)](https://plaid.com/docs/)
 * [BigQuery](https://cloud.google.com/bigquery/docs/reference/rest) 
 * Google Sheets API (possibly for manual uploads)
+* React Native Paper
+* [React Native Chart Kit](https://www.npmjs.com/package/react-native-chart-kit) 
 * [Venmo API (if possible)](https://developers.braintreepayments.com/guides/client-sdk/setup/ios/v4)
 
 ## Screens

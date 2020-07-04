@@ -693,12 +693,14 @@ PODS:
     - RNFBApp
   - RNGestureHandler (1.6.1):
     - React
-  - RNGoogleSignin (2.1.1):
+  - RNGoogleSignin (4.0.3):
     - GoogleSignIn (~> 5.0.0)
     - React
   - RNReanimated (1.9.0):
     - React
   - RNScreens (2.9.0):
+    - React
+  - RNSVG (12.1.0):
     - React
   - RNVectorIcons (6.7.0):
     - React
@@ -764,9 +766,10 @@ DEPENDENCIES:
   - "RNFBFirestore (from `../node_modules/@react-native-firebase/firestore`)"
   - "RNFBMessaging (from `../node_modules/@react-native-firebase/messaging`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
-  - RNGoogleSignin (from `../node_modules/react-native-google-signin`)
+  - "RNGoogleSignin (from `../node_modules/@react-native-community/google-signin`)"
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNSVG (from `../node_modules/react-native-svg`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - "toolbar-android (from `../node_modules/@react-native-community/toolbar-android`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -882,11 +885,13 @@ EXTERNAL SOURCES:
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNGoogleSignin:
-    :path: "../node_modules/react-native-google-signin"
+    :path: "../node_modules/@react-native-community/google-signin"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
   RNVectorIcons:
     :path: "../node_modules/react-native-vector-icons"
   toolbar-android:
@@ -967,9 +972,10 @@ SPEC CHECKSUMS:
   RNFBFirestore: 2bc12c2d202de8da298566ebb5cbd9659ebbbb5f
   RNFBMessaging: d149d0b48f6d6a449afb05876a1466b4e4494280
   RNGestureHandler: 8f09cd560f8d533eb36da5a6c5a843af9f056b38
-  RNGoogleSignin: 6baed9bb19c9c54614bef63bdc55c381b4e33c44
+  RNGoogleSignin: ccf71ee4b6cfd324fd788a41e457e2043838c0d9
   RNReanimated: b5ccb50650ba06f6e749c7c329a1bc3ae0c88b43
   RNScreens: c526239bbe0e957b988dacc8d75ac94ec9cb19da
+  RNSVG: ce9d996113475209013317e48b05c21ee988d42e
   RNVectorIcons: 368d6d8b8301224e5ffb6254191f4f8876c2be0d
   toolbar-android: 85f3ef4d691469f2d304e7dee4bca013aa1ba1ff
   Yoga: 3ebccbdd559724312790e7742142d062476b698e
