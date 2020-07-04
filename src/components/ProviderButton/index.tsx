@@ -43,7 +43,6 @@ function ProviderButton({style, type, onPress, loading, children}: Props) {
 const styles = StyleSheet.create({
   button: {
     marginVertical: 5,
-    backgroundColor: 'red',
     width: 300,
   },
 })

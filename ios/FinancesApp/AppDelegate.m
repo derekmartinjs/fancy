@@ -1,4 +1,6 @@
 #import <Firebase.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+
 #import "AppDelegate.h"
 
 #import <React/RCTBridge.h>
@@ -57,4 +59,16 @@ static void InitializeFlipper(UIApplication *application) {
 #endif
 }
 
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+            options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+
+  BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
+    openURL:url
+    sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
+    annotation:options[UIApplicationOpenURLOptionsAnnotationKey]
+  ];
+  // Add any custom logic here.
+  return handled;
+}
 @end
