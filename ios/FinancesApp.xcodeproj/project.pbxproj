@@ -12,16 +12,31 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		15BF9312F480490990628E9C /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31F5F162E9C24927B1180110 /* EvilIcons.ttf */; };
+		1AF9BFEEBFBF429995363806 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E83B922BD2D542EAB9E24A07 /* FontAwesome.ttf */; };
 		2A4CFE62E5ACCD800E5F9A1C /* libPods-FinancesApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2073629565F81DF5AEBA613A /* libPods-FinancesApp-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* FinancesAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FinancesAppTests.m */; };
 		2E540E110B04AE3DF73272CE /* libPods-FinancesApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BACBA9BEC4CF02B173FFE3AC /* libPods-FinancesApp-tvOS.a */; };
+		3FC6FCCEC94B4BDB9014A088 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EDBF432B7A54EC892CEE468 /* FontAwesome5_Solid.ttf */; };
+		417A866D06E443C79CFC5F3A /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4D99E8A4D01476C810AA068 /* SimpleLineIcons.ttf */; };
 		48E2A9FA2CEF544D960D437F /* libPods-FinancesApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6A000BB1D2227A3E7919FD /* libPods-FinancesApp.a */; };
+		4F9ABA4842F449D9BC1B6248 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6914B9382DB541549BFE6182 /* FontAwesome5_Brands.ttf */; };
+		5A19950B14E04C898B9A44D2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 228AA089A80F4173B0D2D512 /* MaterialIcons.ttf */; };
+		640EBA147911463D89177851 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87A04D1DF6E04811AE6387B6 /* Foundation.ttf */; };
+		8818BADCB6B54703A2E1B4A1 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30A2DDA93044C3A92AEEEB2 /* Octicons.ttf */; };
+		88739AA3FD8E4F5192243708 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A494770D832420081C0A281 /* FontAwesome5_Regular.ttf */; };
+		8FC191F79A454740A2E5F39F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B741BCF6AE574FE49C240EED /* Ionicons.ttf */; };
+		906F9740F55B4B229D5D9547 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ED4FA490D6648A8878AEF1D /* AntDesign.ttf */; };
+		950E6F2CD1AF438588C32D99 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5869FBD4C14122ADC62A50 /* Feather.ttf */; };
+		989B836A2A2F421A88D3130E /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FCB4EE40D4424BBE9492E0 /* Fontisto.ttf */; };
+		BBBB1854E197408BA58A8873 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 579D707C7AA14D17BC10CDBB /* Zocial.ttf */; };
+		CE1D4D9F83404EA8A03B683A /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DC0ABFB01204B25B6862C83 /* Entypo.ttf */; };
 		D21625D962A38526BD1FF7A2 /* libPods-FinancesApp-FinancesAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6F9AE28D5B2837B4233FCE /* libPods-FinancesApp-FinancesAppTests.a */; };
-		D325191824B034C9009747DF /* ios in Resources */ = {isa = PBXBuildFile; fileRef = D325191724B034C9009747DF /* ios */; };
 		D325192024B03C4E009747DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D325191F24B03C4E009747DF /* GoogleService-Info.plist */; };
+		E13C660F04B34E9FBA856C69 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46A78D04B71E4248A3D60D7A /* MaterialCommunityIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +61,7 @@
 		00E356EE1AD99517003FC87E /* FinancesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FinancesAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinancesAppTests.m; sourceTree = "<group>"; };
+		0ED4FA490D6648A8878AEF1D /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		0F26A7A39E1E4510674910C7 /* Pods-FinancesApp-FinancesAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp-FinancesAppTests.release.xcconfig"; path = "Target Support Files/Pods-FinancesApp-FinancesAppTests/Pods-FinancesApp-FinancesAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* FinancesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FinancesApp/AppDelegate.h; sourceTree = "<group>"; };
@@ -56,18 +72,33 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FinancesApp/main.m; sourceTree = "<group>"; };
 		166F38C7DB3AC252DDBDF570 /* Pods-FinancesApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-FinancesApp-tvOS/Pods-FinancesApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2073629565F81DF5AEBA613A /* libPods-FinancesApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinancesApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		228AA089A80F4173B0D2D512 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		2A494770D832420081C0A281 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		2BCFE276872DD8427A1A0830 /* Pods-FinancesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp.release.xcconfig"; path = "Target Support Files/Pods-FinancesApp/Pods-FinancesApp.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* FinancesApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FinancesApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* FinancesApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FinancesApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC0ABFB01204B25B6862C83 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		31F5F162E9C24927B1180110 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		3EDBF432B7A54EC892CEE468 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		3F6F9AE28D5B2837B4233FCE /* libPods-FinancesApp-FinancesAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinancesApp-FinancesAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A78D04B71E4248A3D60D7A /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		56FCB4EE40D4424BBE9492E0 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		579D707C7AA14D17BC10CDBB /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		5ABF19284066D5675C4623DE /* Pods-FinancesApp-FinancesAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp-FinancesAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FinancesApp-FinancesAppTests/Pods-FinancesApp-FinancesAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6914B9382DB541549BFE6182 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		6B5869FBD4C14122ADC62A50 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		6E6A000BB1D2227A3E7919FD /* libPods-FinancesApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinancesApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A04D1DF6E04811AE6387B6 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		905E967BF2DD13EF4D7AB725 /* Pods-FinancesApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-FinancesApp-tvOS/Pods-FinancesApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ABAF75DC1F02161531DF4F7E /* Pods-FinancesApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-FinancesApp-tvOSTests/Pods-FinancesApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		B741BCF6AE574FE49C240EED /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		BACBA9BEC4CF02B173FFE3AC /* libPods-FinancesApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinancesApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71CAFDD40C3246429C95E14 /* Pods-FinancesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp.debug.xcconfig"; path = "Target Support Files/Pods-FinancesApp/Pods-FinancesApp.debug.xcconfig"; sourceTree = "<group>"; };
-		D325191724B034C9009747DF /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; sourceTree = "<group>"; };
 		D325191F24B03C4E009747DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3EA23B424B0598800E05E05 /* FinancesApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = FinancesApp.entitlements; path = FinancesApp/FinancesApp.entitlements; sourceTree = "<group>"; };
+		E30A2DDA93044C3A92AEEEB2 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		E4D99E8A4D01476C810AA068 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		E83B922BD2D542EAB9E24A07 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FD0C00771D3614383C66F5F2 /* Pods-FinancesApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-FinancesApp-tvOSTests/Pods-FinancesApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,7 +160,7 @@
 		13B07FAE1A68108700A75B9A /* FinancesApp */ = {
 			isa = PBXGroup;
 			children = (
-				D325191724B034C9009747DF /* ios */,
+				D3EA23B424B0598800E05E05 /* FinancesApp.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -154,6 +185,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7E2AF81CF0C8400DA223F92D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0ED4FA490D6648A8878AEF1D /* AntDesign.ttf */,
+				2DC0ABFB01204B25B6862C83 /* Entypo.ttf */,
+				31F5F162E9C24927B1180110 /* EvilIcons.ttf */,
+				6B5869FBD4C14122ADC62A50 /* Feather.ttf */,
+				E83B922BD2D542EAB9E24A07 /* FontAwesome.ttf */,
+				6914B9382DB541549BFE6182 /* FontAwesome5_Brands.ttf */,
+				2A494770D832420081C0A281 /* FontAwesome5_Regular.ttf */,
+				3EDBF432B7A54EC892CEE468 /* FontAwesome5_Solid.ttf */,
+				56FCB4EE40D4424BBE9492E0 /* Fontisto.ttf */,
+				87A04D1DF6E04811AE6387B6 /* Foundation.ttf */,
+				B741BCF6AE574FE49C240EED /* Ionicons.ttf */,
+				46A78D04B71E4248A3D60D7A /* MaterialCommunityIcons.ttf */,
+				228AA089A80F4173B0D2D512 /* MaterialIcons.ttf */,
+				E30A2DDA93044C3A92AEEEB2 /* Octicons.ttf */,
+				E4D99E8A4D01476C810AA068 /* SimpleLineIcons.ttf */,
+				579D707C7AA14D17BC10CDBB /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +225,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D89DE5BA07421E2628DD39E1 /* Pods */,
+				7E2AF81CF0C8400DA223F92D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -347,10 +402,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D325191824B034C9009747DF /* ios in Resources */,
 				D325192024B03C4E009747DF /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				906F9740F55B4B229D5D9547 /* AntDesign.ttf in Resources */,
+				CE1D4D9F83404EA8A03B683A /* Entypo.ttf in Resources */,
+				15BF9312F480490990628E9C /* EvilIcons.ttf in Resources */,
+				950E6F2CD1AF438588C32D99 /* Feather.ttf in Resources */,
+				1AF9BFEEBFBF429995363806 /* FontAwesome.ttf in Resources */,
+				4F9ABA4842F449D9BC1B6248 /* FontAwesome5_Brands.ttf in Resources */,
+				88739AA3FD8E4F5192243708 /* FontAwesome5_Regular.ttf in Resources */,
+				3FC6FCCEC94B4BDB9014A088 /* FontAwesome5_Solid.ttf in Resources */,
+				989B836A2A2F421A88D3130E /* Fontisto.ttf in Resources */,
+				640EBA147911463D89177851 /* Foundation.ttf in Resources */,
+				8FC191F79A454740A2E5F39F /* Ionicons.ttf in Resources */,
+				E13C660F04B34E9FBA856C69 /* MaterialCommunityIcons.ttf in Resources */,
+				5A19950B14E04C898B9A44D2 /* MaterialIcons.ttf in Resources */,
+				8818BADCB6B54703A2E1B4A1 /* Octicons.ttf in Resources */,
+				417A866D06E443C79CFC5F3A /* SimpleLineIcons.ttf in Resources */,
+				BBBB1854E197408BA58A8873 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +537,7 @@
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -486,6 +557,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,7 +566,7 @@
 		};
 		66F2A841C024A1AA3EDA074A /* [CP-User] [RNFB] Core Configuration */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			name = "[CP-User] [RNFB] Core Configuration";
@@ -526,7 +598,7 @@
 		};
 		C38AAB06996B377A036023C7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -547,6 +619,7 @@
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -566,8 +639,9 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinancesApp/Pods-FinancesApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -748,6 +822,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FinancesApp/FinancesApp.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ET2R8V5V8G;
 				ENABLE_BITCODE = NO;
@@ -776,6 +851,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FinancesApp/FinancesApp.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ET2R8V5V8G;
 				INFOPLIST_FILE = FinancesApp/Info.plist;

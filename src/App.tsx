@@ -75,7 +75,7 @@ function App() {
       </UserContext.Provider>
     ) : (
       <SignedOutStack />
-    );
+    ),
   );
 }
 

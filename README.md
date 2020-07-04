@@ -16,14 +16,25 @@
   * New Venmo/Amazon transactions/payments 
   * Alerts for both positive and negative budget trends 
 
-
-
 ## APIs and other services (these are what power the app)
 
 * React Native 
 * [Firebase](https://firebase.google.com/docs/ios/setup?authuser=0) 
   * Authentication
+    * **Google OAuth** 
   * Firestore (database)
+    * Collections:
+      * **users**
+      * **budgets**
+      * **categories**
+      * **transactions**
+      * **subscriptions**
+      * **shared_expenses**
+      * **vendors**
+      * **accounts**
+      * **user_to_user**
+      * **user_to_transaction**
+      * **user_to_budget** 
   * Push Notifications
 * [Plaid (for financial transactions)](https://plaid.com/docs/)
 * [BigQuery](https://cloud.google.com/bigquery/docs/reference/rest) 
