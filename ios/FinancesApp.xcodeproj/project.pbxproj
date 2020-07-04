@@ -20,6 +20,7 @@
 		2E540E110B04AE3DF73272CE /* libPods-FinancesApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BACBA9BEC4CF02B173FFE3AC /* libPods-FinancesApp-tvOS.a */; };
 		48E2A9FA2CEF544D960D437F /* libPods-FinancesApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6A000BB1D2227A3E7919FD /* libPods-FinancesApp.a */; };
 		D21625D962A38526BD1FF7A2 /* libPods-FinancesApp-FinancesAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6F9AE28D5B2837B4233FCE /* libPods-FinancesApp-FinancesAppTests.a */; };
+		D325191824B034C9009747DF /* ios in Resources */ = {isa = PBXBuildFile; fileRef = D325191724B034C9009747DF /* ios */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		ABAF75DC1F02161531DF4F7E /* Pods-FinancesApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-FinancesApp-tvOSTests/Pods-FinancesApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		BACBA9BEC4CF02B173FFE3AC /* libPods-FinancesApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinancesApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71CAFDD40C3246429C95E14 /* Pods-FinancesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp.debug.xcconfig"; path = "Target Support Files/Pods-FinancesApp/Pods-FinancesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D325191724B034C9009747DF /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FD0C00771D3614383C66F5F2 /* Pods-FinancesApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-FinancesApp-tvOSTests/Pods-FinancesApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* FinancesApp */ = {
 			isa = PBXGroup;
 			children = (
+				D325191724B034C9009747DF /* ios */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -287,7 +290,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1150;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -341,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D325191824B034C9009747DF /* ios in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -693,6 +697,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5ABF19284066D5675C4623DE /* Pods-FinancesApp-FinancesAppTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -716,6 +721,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F26A7A39E1E4510674910C7 /* Pods-FinancesApp-FinancesAppTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = FinancesAppTests/Info.plist;
@@ -752,7 +758,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = om.parallelapps.fancyapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelapps.fancyapp;
 				PRODUCT_NAME = FinancesApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -775,7 +781,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = om.parallelapps.fancyapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelapps.fancyapp;
 				PRODUCT_NAME = FinancesApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
