@@ -21,6 +21,7 @@
 		48E2A9FA2CEF544D960D437F /* libPods-FinancesApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6A000BB1D2227A3E7919FD /* libPods-FinancesApp.a */; };
 		D21625D962A38526BD1FF7A2 /* libPods-FinancesApp-FinancesAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6F9AE28D5B2837B4233FCE /* libPods-FinancesApp-FinancesAppTests.a */; };
 		D325191824B034C9009747DF /* ios in Resources */ = {isa = PBXBuildFile; fileRef = D325191724B034C9009747DF /* ios */; };
+		D325192024B03C4E009747DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D325191F24B03C4E009747DF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		BACBA9BEC4CF02B173FFE3AC /* libPods-FinancesApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinancesApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71CAFDD40C3246429C95E14 /* Pods-FinancesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp.debug.xcconfig"; path = "Target Support Files/Pods-FinancesApp/Pods-FinancesApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D325191724B034C9009747DF /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; sourceTree = "<group>"; };
+		D325191F24B03C4E009747DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FD0C00771D3614383C66F5F2 /* Pods-FinancesApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-FinancesApp-tvOSTests/Pods-FinancesApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D325191F24B03C4E009747DF /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* FinancesApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* FinancesAppTests */,
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D325191824B034C9009747DF /* ios in Resources */,
+				D325192024B03C4E009747DF /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
