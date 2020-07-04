@@ -44,4 +44,31 @@
 ## File Structure
 
 * Below is the way we are organizing this app:
-* 
+* **/root**
+  * **/android**
+    * Android related files
+  * **/ios**
+    * iOS related files 
+  * **/docs** 
+    * App documentation
+  * **/scripts**
+    * Various scripts needed to run the app
+  * **/src**
+    * **/screens** 
+      * **/signed-in**
+        * Home
+        * Transactions
+        * Transaction
+        * Budget
+        * Profile
+        * Shared
+        * Subscriptions
+        * Settings
+        * Stack
+      * **/signed-out** 
+        * SignIn
+        * Stack
+    * /**components**
+      * SearchBar
+    * /**utils**
+    * theme.ts
