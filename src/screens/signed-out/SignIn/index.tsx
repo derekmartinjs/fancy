@@ -4,7 +4,7 @@ import {Button, Theme, withTheme} from "react-native-paper";
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {NavigationParams} from 'react-navigation';
 import {Hero, ProviderButton} from "../../../components";
-import {EmailPassword, Google} from "../../../providers";
+import {EmailPassword, Facebook, Google} from "../../../providers";
 import theme from "../../../theme";
 
 interface Props {
@@ -53,8 +53,25 @@ function SignIn({navigation, theme}: Props) {
         <Icon name="arrow-down-bold" color="#fff" size={23} />
       </View>
 
-      <View style={[styles.divider, {backgroundColor: theme.colors.primary}]}>
-        <Google />
+      <View style={styles.center}>
+        <Button
+          color="#9e9e9e"
+          style={styles.button}
+          onPress={() => navigation.navigate('ForgotPassword')}>
+          Forgot your password?
+        </Button>
+        <Button
+          mode="contained"
+          icon="account-box"
+          style={styles.button}
+          onPress={() => navigation.navigate('CreateAccount')}>
+          Create an account
+        </Button>
+        <View style={[styles.divider, {backgroundColor: theme.colors.primary}]}>
+          <Google />
+          <Facebook />
+        </View>
+        
       </View>
     </>
   );

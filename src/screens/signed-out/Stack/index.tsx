@@ -4,7 +4,7 @@ import {NavigationContainer} from "@react-navigation/native";
 import {createStackNavigator} from "@react-navigation/stack";
 import {Theme, withTheme} from "react-native-paper";
 
-import {SignIn} from "../../signed-out";
+import {SignIn, CreateAccount, ForgotPassword} from "../../signed-out";
 
 interface Props {
   theme: Theme;
@@ -24,6 +24,8 @@ function SignedOutStack({theme}: Props) {
         }}
       >
         <Stack.Screen name="Login" component={SignIn} />
+        <Stack.Screen name="CreateAccount" options={{title: 'Create Account'}} component={CreateAccount} />
+        <Stack.Screen name="ForgotPassword" options={{title: 'Password Reset'}} component={ForgotPassword} />
       </Stack.Navigator>
     </NavigationContainer>
   )
