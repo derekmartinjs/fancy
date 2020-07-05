@@ -27,7 +27,7 @@ function Google() {
   );
 
   const handleGoogle = async () => {
-    if (!loading && !user) {
+    if (!loading) {
       setLoading(true);
 
       try {
@@ -45,6 +45,7 @@ function Google() {
           );
 
           if (variant === 'LINK') {
+            console.log('user wants to link Google')
             await user.linkWithCredential(credential);
           } else if (variant === 'SIGN_IN') {
             await auth().signInWithCredential(credential);

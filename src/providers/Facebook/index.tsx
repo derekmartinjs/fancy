@@ -20,14 +20,13 @@ function Facebook() {
   );
 
   const handleFacebook = async () => {
-    if (!loading && !user) {
+    if (!loading || !user) {
       setLoading(true);
-
       try {
         if (variant === 'UNLINK') {
           await user.unlink(PROVIDER_ID);
         } else {
-          await LoginManager.logInWithPermissions(['public_profile'])
+          await LoginManager.logInWithPermissions(['public_profile', 'email', 'user_location'])
             .then(async (result: {isCancelled: any; accessToken: any}) => {
               const {isCancelled} = result;
 
@@ -47,7 +46,10 @@ function Facebook() {
                 );
 
                 if (variant === 'LINK') {
-                  await user.linkWithCredential(credential);
+                  console.log('updated user:');
+                  console.log(credential);
+
+                  await user.linkWithCredential(JSON.stringify(credential));
                 } else if (variant === 'SIGN_IN') {
                   await auth().signInWithCredential(credential);
                 }

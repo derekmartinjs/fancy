@@ -1,17 +1,33 @@
 import React from "react";
-import auth from '@react-native-firebase/auth';
-import { Button, View, Text } from "react-native";
+import {View} from "react-native";
+import {NavigationContainer} from "@react-navigation/native";
+import {createStackNavigator} from "@react-navigation/stack";
+import {Theme, withTheme} from "react-native-paper";
 
-const Stack = () => (
-  <View>
-    <Text>Signed In Stack screen</Text>
-    <Button
-      onPress={() => auth().signOut().then(() => console.log('user signed out'))}
-      title="Sign Out"
-    >
-            await auth().signInWithEmailAndPassword(email, password);
-    </Button>
-  </View>
-);
+import {Settings, Profile} from "../../signed-in";
 
-export default Stack;
+interface Props {
+  theme: Theme;
+};
+
+const Stack = createStackNavigator();
+
+function SignedInStack({theme}: Props) {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: {
+            backgroundColor: theme.colors.primary,
+          },
+          headerTintColor: theme.colors.accent,
+        }}
+      >
+        <Stack.Screen name="Profile" component={Profile} />
+        <Stack.Screen name="Settings" component={Settings} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  )
+};
+
+export default withTheme(SignedInStack);
