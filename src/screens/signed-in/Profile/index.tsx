@@ -1,5 +1,5 @@
-import React, {useContext, useState} from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import React, {useContext} from 'react';
+import {View, StyleSheet} from 'react-native';
 import dayjs from 'dayjs';
 import {
   Avatar,
@@ -9,21 +9,21 @@ import {
   Subheading,
   Theme,
   Title,
-  withTheme
+  withTheme,
 } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {NavigationParams} from 'react-navigation';
 import {UserContext} from '../../../App';
 import {Hero, Provider} from '../../../components';
 import {Google, Facebook} from '../../../providers';
-import { getProviders } from '../../../utils/helpers';
+import {getProviders} from '../../../utils/helpers';
 
 interface Props {
   theme: Theme;
   navigation: NavigationParams;
 }
 
-function Profile({ theme, navigation}) {
+function Profile({theme, navigation}) {
   // import contexts and declare state variables
   const user = useContext(UserContext);
 
@@ -38,11 +38,11 @@ function Profile({ theme, navigation}) {
       <Hero height={120} colors={['#15212B', '#15212B']} />
       <View style={[styles.content, styles.profile]}>
         {user.photoURL ? (
-          <Avatar.Image size={80} source={{ uri: user.photoURL}} />
+          <Avatar.Image size={80} source={{uri: user.photoURL}} />
         ) : (
-          <Avatar.Text 
+          <Avatar.Text
             size={80}
-            label={user.email ? user.email.substring(0, 2).toUpperCase() : 'A'} 
+            label={user.email ? user.email.substring(0, 2).toUpperCase() : 'A'}
             style={styles.avatar}
           />
         )}
@@ -56,21 +56,24 @@ function Profile({ theme, navigation}) {
         </Headline>
         {!!user.displayName && <Title>{user.email}</Title>}
         {!!user.phoneNumber && <Subheading>{user.phoneNumber}</Subheading>}
-        {!! user.metadata.lastSignInTime && (
+        {!!user.metadata.lastSignInTime && (
           <Caption>
             {`Last log-in: ${dayjs(user.metadata.lastSignInTime).format(
-              'DD/MM/YYYY HH:mm'
+              'DD/MM/YYYY HH:mm',
             )}`}
           </Caption>
         )}
       </View>
       <View style={styles.providers}>
         <Provider type="password" active={providers.includes('password')} />
-        <Provider type="faceboook" active={providers.includes('facebook.com')} />
+        <Provider
+          type="faceboook"
+          active={providers.includes('facebook.com')}
+        />
         <Provider type="google" active={providers.includes('google.com')} />
         <Provider type="phone" active={providers.includes('phone')} />
       </View>
-      <FAB 
+      <FAB
         color="#fff"
         style={[styles.fab, {backgroundColor: theme.colors.primary}]}
         icon="cog"

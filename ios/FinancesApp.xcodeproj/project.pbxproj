@@ -845,7 +845,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.parallelapps.fancyapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelapps.fancy;
 				PRODUCT_NAME = FinancesApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -869,7 +869,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.parallelapps.fancyapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelapps.fancy;
 				PRODUCT_NAME = FinancesApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

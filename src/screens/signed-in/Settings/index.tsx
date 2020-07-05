@@ -95,16 +95,14 @@ function Settings() {
           {
             label: 'Re-send',
             onPress: () => {
-              user && user
-                .sendEmailVerification(user.email)
-                .then(() =>
-                  Alert.alert(
-                    'Verification',
-                    `A verification email has been sent to ${
-                      user.email
-                    }. Please follow the instructions to verify your email address.`,
-                  ),
-                );
+              user.sendEmailVerification().then(() =>
+                Alert.alert(
+                  'Verification',
+                  `A verification email has been sent to 
+                    ${user.email}
+                    . Please follow the instructions to verify your email address.`,
+                ),
+              );
             },
           },
         ]}
@@ -112,7 +110,7 @@ function Settings() {
           <Icon name="alert-decagram" size={size} color="#f44336" />
         )}
         style={styles.banner}>
-        Please verify your email address to use the full features of this app!
+        Please verify your email address to use the full features of Fancy!
         Click the button below to resend a verification email.
       </Banner>
       <View style={styles.content}>
